@@ -5,6 +5,22 @@
   <title>Asmijana | CV and Resume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <title>PDF Preview and Download</title>
+  <style>
+    .pdf-preview {
+      display: block;
+      margin: 20px auto;
+      width: 60vw;    /* Adjust width as needed */
+      height: 70vh;   /* Adjust height as needed */
+      border: 1px solid #ccc;
+    }
+    .download-link {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -12,16 +28,20 @@
     <nav>
       <a href="index.html">About</a>
       <a href="publications.html">Publications</a>
-      <a href="cv.html">CV/Resume</a>
-      <a href="honors.html">Honors/Awards</a>
+      <a href="cv.html">CV and Resume</a>
+      <a href="honors.html">News and Awards</a>
       <a href="outreach.html">Outreach</a>
       <a href="books.html">Books</a>
       <a href="extracurricular.html">Extracurricular</a>
     </nav>
   </header>
+  <!-- PDF Preview -->
+  <iframe class="pdf-preview" src="docus/Jana_A_CV.pdf"></iframe>
+  <!-- Download Link -->
+  <a class="download-link" href="docus/Jana_A_CV.pdf" download>Download PDF</a>
   <main>
-    <p><a href="cv.pdf" target="_blank">Download my CV (PDF)</a></p>
-    <!-- Optionally add a summary or highlights here -->
+    <!-- Optionally add a summary or highlights here
+    <p><a href="cv.pdf" target="_blank">Download my CV (PDF)</a></p> -->
   </main>
 </body>
 </html>
