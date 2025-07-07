@@ -14,6 +14,13 @@
       height: auto; /* Maintains aspect ratio */
       max-width: 100%; /* Responsive */
     }
+    .centered-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full viewport height */
+      font-size: 2rem; /* Adjust as needed */
+    }
   </style>
 </head>
 <body>
@@ -35,12 +42,9 @@
       <h2>About Me</h2>
       <img src="images/me.jpeg" alt="Asmita Jana" class="center-image">
       <br>
-      <p> <strong> Asmita Jana </strong> </p>A
-      <br>
+      <div class="centered-text"> <strong> Asmita Jana </strong> </div>
       <p>I am a computational materials scientist with a passion for solving complex problems at the intersection of atomistic modeling, materials design, and sustainable energy technologies. </p>
-      <br>
-      <p>I use Density Functional Theory and classical, reactive, ab initio, and machine learning-based Molecular Dynamics to understand atomistic phenomena in materials, interfaces, and processes. My postdoctoral research at Lawrence Berkeley National Laboratory focuses on nanoconfined catalysis– how they are created, why they are stable, and how to do they enhance catalytic reactions. Part of it is highlighted in <a href="https://elements.lbl.gov/news/mechanics-of-a-floating-molecular-layer-for-reduction-of-carbon-dioxide/">Elements newsletter</a>.</p>
-      <br>
+      <p>I use Density Functional Theory and classical, reactive, ab initio, and machine learning-based Molecular Dynamics to understand atomistic phenomena in materials, interfaces, and processes. My postdoctoral research at Lawrence Berkeley National Laboratory focuses on nanoconfined catalysis– how they are created, why they are stable, and how to do they enhance catalytic reactions. Part of it is highlighted in <a href="https://elements.lbl.gov/news/mechanics-of-a-floating-molecular-layer-for-reduction-of-carbon-dioxide/">Elements</a>.</p>
       <p>During my PhD research in Materials Science and Engineering at MIT, I worked on simulating gas and water permeation through graphene-based membranes. I also worked to create high strength carbon fibers made cheaper pitch precursors. I designed a reactive molecular dynamics workflow to simulate the carbon fibers manufacturing process: a complex procedure of crosslinking heterogeneous aromatic molecules. Not only did my simulated carbon fibers replicate the mechanical properties of the real fibers, I also predicted a new pathway of creating cheaper carbon fibers with high tensile and compressive modulus, an impressive feat that got featured in <a href="https://news.mit.edu/2022/carbon-fiber-lightweight-materials-0318">MIT News</a>.</p>
     </section>
     <section id="experience">
